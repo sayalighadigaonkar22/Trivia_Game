@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game - Start</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="gameContainer">
+
+        <h1>Welcome to Trivia Game</h1>
+        <p id="game-status"></p>
+
+
+        <div id="start-game">
+            <form id="start-form">
+                <input type="text" id="playerOneName" placeholder="Enter Player 1 Name" required />
+                <input type="text" id="playerTwoName" placeholder="Enter Player 2 Name" required />
+                <select id="category" required>
+                    <option value="general">General Knowledge</option>
+                    <option value="science">Science</option>
+                    <option value="history">History</option>
+                    <option value="music">Music</option>
+                    <option value="education">Education</option>
+                    <option value="space">Space</option>
+                    <option value="india">India</option>
+                </select>
+                <button type="submit">Start Game</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./setup.js"></script>
+</body>
+</html>
